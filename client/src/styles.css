@@ -1,0 +1,20 @@
+:root { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #16232e; }
+body { margin: 0; background: #f4f7fa; }
+.nav { display: flex; align-items: center; gap: 16px; padding: 14px 24px; background: #0f766e; color: #fff; }
+.nav a { color: #fff; text-decoration: none; font-size: 14px; }
+.nav .brand { font-weight: 700; font-size: 18px; letter-spacing: .5px; }
+.nav .spacer { flex: 1; }
+.page { max-width: 900px; margin: 32px auto; padding: 0 20px; }
+.card { max-width: 460px; margin: 32px auto; background: #fff; padding: 24px; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.page .card { margin: 0 0 24px; max-width: none; }
+label { display: block; font-size: 13px; margin: 12px 0 4px; color: #4b5b68; }
+input { width: 100%; padding: 9px 10px; border: 1px solid #cfd8e0; border-radius: 6px; box-sizing: border-box; }
+button { margin-top: 14px; padding: 9px 16px; border: 0; border-radius: 6px; background: #0f766e; color: #fff; cursor: pointer; }
+button:disabled { background: #9bb4b1; cursor: not-allowed; }
+.error { color: #b91c1c; font-size: 14px; }
+.muted { color: #6b7a88; font-size: 13px; }
+.table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
+.table th, .table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e6ecf1; font-size: 14px; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 12px; background: #e2e8f0; }
+.badge.confirmed { background: #d1fae5; color: #065f46; }
+.badge.cancelled { background: #fee2e2; color: #991b1b; }
